@@ -1,0 +1,6 @@
+<h2>Редактировать контакт</h2>
+
+<%= render "form.html", changeset: @changeset,
+                        action: contacts_path(@conn, :update, @contacts) %>
+
+<%= link "Вернуться", to: contacts_path(@conn, :index) %>

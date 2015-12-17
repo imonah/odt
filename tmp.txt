@@ -1,0 +1,10 @@
+
+=INFO REPORT==== 14-Dec-2015::20:55:48 ===
+    application: logger
+    exited: stopped
+    type: temporary
+** (Mix) Could not start application odt: Odt.start(:normal, []) returned an error: shutdown: failed to start child: Odt.Endpoint
+** (Exit) shutdown: failed to start child: Phoenix.Endpoint.Server
+** (Exit) shutdown: failed to start child: {:ranch_listener_sup, Odt.Endpoint.HTTP}
+** (Exit) shutdown: failed to start child: :ranch_acceptors_sup
+** (Exit) {:listener_error, Odt.Endpoint.HTTP, :eaddrinuse}

@@ -1,0 +1,8 @@
+<h2>Show contacts</h2>
+
+<ul>
+
+</ul>
+
+<%= link "Edit", to: contacts_path(@conn, :edit, @contacts) %>
+<%= link "Back", to: contacts_path(@conn, :index) %>
